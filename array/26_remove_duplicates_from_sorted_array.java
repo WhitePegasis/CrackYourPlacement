@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+package array;
 
 class Solution {
     public int removeDuplicates(int[] nums) {

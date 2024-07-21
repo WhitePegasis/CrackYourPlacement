@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/container-with-most-water/
+package array;
 
 class Solution {
     public int maxArea(int[] height) {

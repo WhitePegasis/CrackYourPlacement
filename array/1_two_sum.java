@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/two-sum/
+package array;
 
 import java.util.*;
 class Solution {

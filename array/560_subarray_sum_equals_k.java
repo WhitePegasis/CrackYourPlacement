@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/subarray-sum-equals-k/
+package array;
 
 import java.util.*;
 

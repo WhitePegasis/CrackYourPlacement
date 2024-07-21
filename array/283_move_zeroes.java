@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/move-zeroes/description/
+package array;
 
 class Solution {
     public void moveZeroes(int[] nums) {

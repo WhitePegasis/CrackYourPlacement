@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/set-matrix-zeroes/description/
+package array;
 
 class Solution {
     public void setZeroes(int[][] matrix) {

@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+package array;
 
 class Solution {
     public int maxScore(int[] cardPoints, int k) {

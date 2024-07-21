@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/subarray-sums-divisible-by-k/
+package array;
 
 import java.util.*;
 class Solution {
