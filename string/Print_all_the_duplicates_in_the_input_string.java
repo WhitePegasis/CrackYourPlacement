@@ -3,7 +3,7 @@ package string;
 // Java code to implement the above approach
 import java.util.*;
 
-public class Main {
+public class Print_all_the_duplicates_in_the_input_string {
 
     public static void printDuplicates(String str)
     {
