@@ -1,0 +1,24 @@
+//https://leetcode.com/problems/combinations/
+package backtracking;
+
+import java.util.*;
+
+class Solution {
+    public List<List<Integer>> combine(int n, int k) {
+        List<List<Integer>> result = new ArrayList<>();
+        combination(n,k,1,new ArrayList<>(), result);
+        return result;   
+    }
+
+    public static void combination(int n, int k,int start, List<Integer> list, List<List<Integer>> result) {
+        if(list.size() == k){
+            result.add(new ArrayList<>(list));
+            return;
+        }
+        for(int num = start; num <= n; num++) {
+            list.add(num);
+            combination(n,k,num+1,list,result);
+            list.remove(list.size()-1);  // backtraking for other possible combi. 
+        }
+    }
+}
